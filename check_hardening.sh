@@ -15,9 +15,9 @@ check_status() {
     result=$(eval "$command")
 	
     if [[ -z "$result" ]]; then
-        echo "Status: NÃO CONFIGURADO"
+        echo "Status: INCONFORME"
     else
-        echo "Status: CONFIGURADO"
+        echo "Status: CONFORME"
         echo "Resultado: $result"
     fi
     echo "----------------------------------------"
